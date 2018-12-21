@@ -10,6 +10,7 @@
 - string
 
 **The goal of this project is to play a simplified game of craps.**
+
 -------------------
 
 ## Craps Introduction
@@ -54,6 +55,7 @@
 
 ## The All Function
 ```python
+@TianTian
 def display_game_rules():
     """
 Output the rules of the game
@@ -199,7 +201,6 @@ Returns: The boolean value (boolean)
 ```
 
 ## Feedback and suggestions
-
 - E-mail：<liutia20@msu.edu>
 
 ---------
