@@ -28,9 +28,13 @@
 
 * The Useful function
 > **display_game_rules()**
+>
 > **get_bank_balance()** Prompt the player for an initial bank balance (from which wagering will be added or subtracted). The player-entered bank balance is returned as an int.
+>
 > **add_to_bank_balance(balance)** Prompts the player for an amount to add to the balance. The balance is returned as an int.
+>
 > **get_wager_amount()** Prompts the player for a wager on a particular roll. The wager is returned as an int.
+>
 > **is_valid_wager_amount(wager, balance)** Checks that the wager is less than or equal to the balance; returns True if it is; False otherwise.
 > **roll_die()** Rolls one die. This function should randomly generate a value between 1 and 6 inclusively and returns that value as an int. Use the randint() function called as randint(1,6) for this project. We provide the import at the top of the file.
 > **calculate_sum_dice(die1_value, die2_value)** Sums the values of the two die and returns the sum as an int.
