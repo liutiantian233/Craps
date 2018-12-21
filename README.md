@@ -20,3 +20,9 @@
 ### Project Description
 
 * Your program must prompt for an initial player’s bank balance (from which wagers will be subtracted or added). Note that all dollar amounts in this game will be ints.
+* Before each game (i.e. before the first roll of the game) prompt the user for a wager. Wagers must be less than or equal to the bank balance. If not, keep asking for a wager until a valid one is entered. (Hint: use a while loop).
+* One game is played with a sequence of two dice rolls. A game can end after one roll of the two dice (e.g. a 7 was rolled) or it can continue with an unlimited number of rolls (Hint: use a while loop). Note that the rules are different on the first roll of the game than on subsequent rolls. (Hint: use a Boolean to indicate that it is the first roll, e.g. I used one named “first_roll” that was initially True and after the first roll was changed to False and not changed for the subsequent rolls of the game.)
+* After you play each game update the player’s bank balance by adding or subtracting the wager depending on whether they won or lost.
+* Prompt the user to see if they want to play another game. If “yes”, play another game. (Hint: use a while loop).
+* If the user is to play another game, prompt the user to see if they wish to add to their balance. If “yes”, then prompt for a value and update the player’s bank balance.
+* You have to use the ten functions in the provided proj04.py skeleton. You have to implement and use
