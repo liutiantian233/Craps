@@ -53,7 +53,7 @@
 >
 > **main()** Takes no input. Returns nothing. Call the functions from here. That, the game is played in this function.
 
-## The All Function
+## The All Function (The main function in the py file)
 ```python
 @TianTian
 def display_game_rules():
