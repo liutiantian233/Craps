@@ -9,6 +9,8 @@
 - iteration
 - string
 
+**The goal of this project is to play a simplified game of craps.**
+
 -------------------
 
 ## Craps Introduction
