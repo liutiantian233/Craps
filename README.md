@@ -117,6 +117,7 @@ Returns: The boolean value (boolean)
     """
     if wager <= balance:
         return True
+        
     else:
         return False
 
@@ -152,8 +153,10 @@ Returns: The boolean value (boolean)
     """
     if sum_dice == 7 or sum_dice == 11:
         return 'win'
+        
     elif sum_dice == 2 or sum_dice == 3 or sum_dice == 12:
         return 'loss'
+        
     else:
         return 'point'
 
@@ -170,8 +173,10 @@ Returns: The boolean value (boolean)
     """
     if sum_dice == point_value:
         return 'point'
+        
     elif sum_dice == 7:
         return 'loss'
+        
     else:
         return 'neither'
     
@@ -186,12 +191,17 @@ Determine if the game continues
 Returns: The boolean value (boolean)
     """
     to = input('Do you want to continue? ')
+    
     if to == 'yes':
         return True
+        
     if to == 'no':
         return False
 ```
+
 ## Feedback and suggestions
+
 - E-mail：<liutia20@msu.edu>
+
 ---------
 Thanks for reading this help document
