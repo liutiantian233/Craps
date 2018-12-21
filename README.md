@@ -1,5 +1,4 @@
-# Craps
-A popular dice game
+# Craps - A popular dice game
 
 **A popular dice game is Craps.** In this project you will handle the rolling of dice and wagers while a user plays the game. Wagering for craps is complicated; we use a simplified version here.
 
