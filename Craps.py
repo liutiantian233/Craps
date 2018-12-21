@@ -1,6 +1,6 @@
 ###########################################################
 #
-#  Computer Project #4
+#  Computer Project Craps
 #
 #  Define all the functions
 #    display_game_rules():
@@ -25,7 +25,6 @@
 ###########################################################
 
 from random import randint  # the real Python random
-# from cse231_random import randint  # the cse231 test random for Mimir testing
 
 def display_game_rules():
     """
@@ -289,6 +288,7 @@ No returns
                     
     if con == 'no' or balance <= 0:
     # These are two cases
+    
         if balance <= 0:
         # If the balance is 0 at this point
             print("You don't have sufficient balance to continue.")
