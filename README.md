@@ -11,3 +11,6 @@
 
 -------------------
 
+## Craps Introduction
+
+> **Craps** is a dice game in which the players make wagers on the outcome of the roll, or a series of rolls, of a pair of dice. Players may wager money against each other (playing "street craps") or a bank (playing "casino craps", also known as "table craps", or often just "craps"). Because it requires little equipment, "street craps" can be played in informal settings. While shooting craps, players may use slang terminology to place bets and actions. -- [Wikipedia](https://en.wikipedia.org/wiki/Craps)
